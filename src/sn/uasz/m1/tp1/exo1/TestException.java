@@ -1,4 +1,4 @@
-package sn.uasz.m1.tp1.exo;
+package sn.uasz.m1.tp1.exo1;
 
 public class TestException {
 

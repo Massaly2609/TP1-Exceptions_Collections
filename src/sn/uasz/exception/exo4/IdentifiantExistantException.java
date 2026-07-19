@@ -1,8 +1,8 @@
 package sn.uasz.exception.exo4;
 
-public class IdentifiantExceotion extends Exception {
+public class IdentifiantExistantException extends Exception {
 
-    public IdentifiantExceotion(String message) {
+    public IdentifiantExistantException(String message) {
         super(message);
     }
 }

@@ -1,6 +1,6 @@
-package sn.uasz.m1.tp1.exo;
+package sn.uasz.m1.tp1.exo1;
 
-import static sn.uasz.m1.tp1.exo.TestException.verifie;
+import static sn.uasz.m1.tp1.exo1.TestException.verifie;
 
 public class Principale {
     public static void main(String[] args) {
