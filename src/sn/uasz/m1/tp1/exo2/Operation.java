@@ -1,6 +1,5 @@
 package sn.uasz.m1.tp1.exo2;
 
-import static java.lang.Math.sqrt;
 
 public class Operation {
 
@@ -21,18 +20,14 @@ public class Operation {
             if (nbre2 == 0 ){
                 throw new OperationException("Nombre null ne peut pas diviser ");
             }
-
             return (nbre1 / nbre2);
-
     }
 
     public double  racineDeLaSomme() throws  OperationException{
-
         double somme = nbre1 + nbre2;
         if (somme < 0){
             throw new OperationException("Somme negative");
         }
-
         return Math.sqrt(somme);
     }
 
@@ -40,7 +35,6 @@ public class Operation {
         if (nbre1 <= 0 || nbre2 <= 0 ){
             throw new OperationException("Nombre null ne peut pas diviser ");
         }
-
         return nbre1 % nbre2 == 0;
     }
 }
